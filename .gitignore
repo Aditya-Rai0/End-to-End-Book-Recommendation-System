@@ -209,11 +209,4 @@ __marimo__/
 
 
 
-# Notebook and Data files
-notebook/
-*.csv
-*.pkl
-*.zip
 
-# Artifacts folder
-artifacts/
