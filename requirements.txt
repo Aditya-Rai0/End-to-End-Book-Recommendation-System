@@ -4,4 +4,5 @@ numpy
 requests
 PyYAML
 streamlit
+ginicorn
 -e .
