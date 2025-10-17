@@ -1,3 +1,11 @@
+artifacts_config:
+  artifacts_dir: artifacts
+
+data_ingestion_config:
+  dataset_download_url: https://github.com/Aditya-Rai0/End-to-End-Book-Recommendation-System/raw/refs/heads/main/notebook/BX-Book-Ratings.zip
+  dataset_dir: dataset
+  ingested_dir: ingested_data
+  raw_data_dir: raw_data
 
 
 
@@ -20,4 +28,4 @@ model_trainer_config:
 
 
 recommendation_config:
-  poster_api_url: https://api.themoviedb.org/3/movie/{}?api_key=8265bd1679663a7ea12ac168da84d2e8&language=en-US
+  poster_api_url: https://www.googleapis.com/books/v1/volumes?q=isbn:{}
