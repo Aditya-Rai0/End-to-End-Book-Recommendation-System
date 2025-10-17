@@ -21,6 +21,6 @@ setup(
     author_email="adityarai29052005@gmail.com",
     packages=find_packages(),
     license="MIT",
-    python_requires=">=3.7",
+    python_requires=">=3.10",
     install_requires=LIST_OF_REQUIREMENTS
 )
