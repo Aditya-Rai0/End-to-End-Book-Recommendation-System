@@ -2,7 +2,7 @@
 
 ## Workflow 
 
-- cinfig.yaml
+- config.yaml
 - entity
 - config/configuration.py
 - components
